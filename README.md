@@ -62,5 +62,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-# basic-testing
+# laravel-testing
+
 A Laravel project for learning the basics of testing, focusing on essential testing techniques and best practices.
+
+    Clone the repository and navigate into the project directory:
+
+    git clone <repository_url>
+
+    cd laravel-testing
+
+    Install the project dependencies: composer install
+
+    Create a new .env file: cp .env.example .env
+
+    Generate a new application key: php artisan key:generate
+
+    Create an SQLite database configuration file:
+
+    .env.testing
+
+    Migrate the database: php artisan migrate
+
+    Seed the database: php artisan db:seed
+
+    Run the tests: php artisan test
+
+
