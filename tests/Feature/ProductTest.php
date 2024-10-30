@@ -30,7 +30,7 @@ class ProductTest extends TestCase
     public function test_home_page_contains_empty_table()
     {
         $this->markTestSkipped('skipped for now');
-        $response = $this->actingAs($this->user)->get('/products_rename');
+        $response = $this->actingAs($this->user)->get('/products');
 
         $response->assertOk(); //200 code
         $response->assertDontSee('No products found');
